@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/iconfont_jiantou" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/linearlayout03" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/iconfont_sousuo" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoselect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:hint="输入起点..."
+                android:textColor="#666666"
+                android:textColorHint="#C0C0C0"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#3299CC"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:textColor="#F4F4F4"
+            android:textSize="16sp"
+            android:text="确认" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#A0A0A0" />
+    
+    <ListView 
+        android:background="@drawable/linearlayout01"
+        android:layout_margin="20dp"
+        android:id="@+id/list_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    </ListView>
+
+</LinearLayout>
