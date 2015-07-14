@@ -13,4 +13,4 @@
 
 ![image](https://github.com/sheepm/surround/blob/master/img/20150710143134.png)
 
-博客地址：http://blog.csdn.net/u013926110
+部分截图，详细见博客地址：http://blog.csdn.net/u013926110
